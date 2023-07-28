@@ -1,0 +1,66 @@
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    width: 20rem;
+    height: 20rem;
+    flex-shrink: 0;
+    border-radius: 4.2rem;
+    border: 7px solid rgba(233, 69, 96, 0.25);
+    box-shadow: 7px 6px 10px 0px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 39px 5px;
+    background-color: white;
+}
+
+.box1 .boxtext {
+    padding-bottom: 18px;
+}
+
+.smallbox img {
+    width: 130px;
+    height: 120px;
+}
+
+
+.boxtext {
+    padding-top: 5px;
+    padding-bottom: 40px;
+    color: #223F68;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 20.875rem;
+}
+
+h2 {
+    color: #223F68;
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 6px;
+    text-align: center;
+}
+
+.box {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body {
+    background-image: url(/Images/Workshop.png);
+    align-items: center;
+    background-size: cover;
+}

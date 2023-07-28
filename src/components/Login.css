@@ -1,0 +1,65 @@
+body {
+    background-image: url(LoginP.png);
+    align-items: center;
+    background-size: cover;
+    background-color: white;
+    color: black;
+}
+
+.sp_body {
+    display: flex;
+    margin: 0.2rem auto;
+    flex-direction: row;
+}
+
+.inputs {
+    display: block;
+    width: 550px;
+    margin: auto;
+    margin-left: 120px;
+}
+
+.image_div{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.image_div img {
+    width: 520px;
+    height: 790px;
+    margin-left: 147px;
+    margin-top: 99px;
+}
+
+input {
+    width: 70%;
+    display: block;
+    padding: 0.6rem 0.5rem;
+    border-radius: 0.5rem;
+    border: 1.5px solid #223F68;
+    text-align: left;
+    margin: 0.8rem 0;
+    background-color: #fff;
+}
+
+.button_sp {
+    margin: 0.6rem 0rem;
+    display: block;
+    width: 403px;
+    background-color: #1D2F50;
+    text-align: center;
+     color:#5FFF00;
+}
+.inputs h2{
+    text-align: left;
+    color: #1D2F50;
+}
+
+.inputs p {
+    font-size: medium;
+}
+
+.forgot p {
+    font-size: medium;
+}
