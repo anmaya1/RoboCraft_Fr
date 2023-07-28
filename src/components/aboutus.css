@@ -1,0 +1,41 @@
+.about_us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./backgroundabt.png);
+    background-size: cover;
+    color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.ab_img img {
+    width: 550px;
+    height: 550px
+}
+
+.ab_para {
+    display: flex;
+    justify-content: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    flex-shrink: 0;
+    color: #1D2F50;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.ab_head h2 {
+    display: flex;
+    color: #1D2F50;
+    font-family: Poppins;
+    font-size: 45px;
+    height: fit-content;
+    margin: 0;
+    padding-top: 10px;
+}

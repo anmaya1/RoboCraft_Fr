@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import homerobo from '/Images/homerobo.png'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
                 </div>
                 <ul className="navbar">
                     <li><a href="#About">About Us</a></li>
-                    <li><a href="#Login">Login</a></li>
+                    <li><Link to="login">Login</Link></li>
                     <li><a href="#FAQ">FAQ's</a></li>
                 </ul>
             </div>
@@ -28,7 +29,7 @@ export default function Home() {
         <div className="text">
             <p className="line">DIVE INTO THE WORLD OF</p><h1>ROBOTICS!</h1>
             <p>Building Bridges with Robotics: Explore, Engineer, Excel!</p>
-            <button>REGISTER NOW</button>
+            <button> <Link to='/register'>REGISTER NOW</Link></button>
         </div>
         <div class="image_div">
         <img src={homerobo} alt="" />
