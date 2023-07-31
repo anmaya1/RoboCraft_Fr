@@ -1,41 +1,44 @@
 .about_us {
-    display: flex;
-    flex-direction: column;
+    padding: 2rem;
+    display: block;
     align-items: center;
-    background-image: url(./backgroundabt.png);
+    text-align: center;
+    height: 95vh;
     background-size: cover;
-    color: black;
-    width: 100%;
-    height: 100vh;
+    background-image: url('./Images/about_bg.png');
 }
-
+.ab_img{
+    width: 40%;
+}
 .ab_img img {
-    width: 550px;
-    height: 550px
+    width: 80%;
+}
+.ab_content{
+width: 60%;
+margin: auto 0;
+align-items: center;
+}
+.ab_content p{
+    font-size: 1.4em;
+    width: 75%;
+    line-height: 150%;
+    text-align: left;
+    padding: 0.5rem 3rem;
 }
 
-.ab_para {
+.abt_cnt {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    padding-left: 12%;
-    padding-right: 12%;
-    flex-shrink: 0;
     color: #1D2F50;
     text-align: center;
-    font-family: Poppins;
-    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin: 0;
 }
 
-.ab_head h2 {
-    display: flex;
+.about_us h2 {
     color: #1D2F50;
-    font-family: Poppins;
-    font-size: 45px;
-    height: fit-content;
+   font-size: 2.4em;
     margin: 0;
-    padding-top: 10px;
 }

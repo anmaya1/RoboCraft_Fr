@@ -1,78 +1,88 @@
 /* home page */
-body {
-  margin: 0px 0px;
-  font-family: Arial, sans-serif;
-  color: #1D2F50;
-  background-image: url(./components/Desktop.png);
-  display: flex;
-  background-size: cover;
-  background-image: no-repeat;
-}
 
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 !important;
+  background-color: #fff;
+}
+.hero_body{
+  background-image: url(./Images/hero_img.png);
+  background-size: cover;
+  height: 98vh;
+}
 .container {
   display: flex;
   width: 100%;
   align-items: center;
+  text-align: center;
+  
   justify-content: space-between;
-  font-size: 25px;
-  max-width: auto;
 }
 
 p {
   color: #1D2F50;
 }
 
-.line {
-  font-weight: 400;
-  font-size: 45px;
-  padding-bottom: 0;
-  margin-bottom: 10px;
-  padding-right: 0;
-  margin-right: 0;
-  color: #1D2F50;
-}
-
-.text {
-  padding-left: 10%;
-  padding-right: 5%;
+.text_hero {
+display: block;
+width: 60%;
 }
 
 .image_div{
   display: block;
+  width: 40%;
+  padding: 4rem;
   margin-top: auto;
   margin-bottom: auto;
 }
-
-.image_div img {
-  width: 421px;
-  height: 559px;
-  margin-left: 222px;
-  margin-top: 70px;
-  margin-right: 103px;
+.robo_img{
+  width: 60%;
 }
-
-h1 {
-  margin-top: 0;
-  padding-top: 0;
+.text_hero_container{
+  text-align: left;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #5FFF00;
+.text_hero_container h2{
+  font-size: 2.4em;
+  margin: 0.4rem 0;
   color: #1D2F50;
-  cursor: pointer;
-  transition: border-color 0.25s;
+  font-weight: normal;
+}
+.text_hero_container h2 span{
+  font-weight: bold;
 }
 
-.button:hover {
-  width: 240px;
-  height: 65px;
+.text_hero_container p{
+  margin: 0.2rem 0;
+  font-size: 1.6em;
 }
+.button_cta {
+  margin-top: 1.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid transparent;
+  padding: 0.7em 1.2em;
+  font-size: 0.9em;
+  font-family: inherit;
+  font-weight: 500;
+  background-color: #5FFF00;
+  
+  cursor: pointer;
+}
+
+.button_cta:hover {
+  border-radius: 0.4rem;
+  border: 1px solid transparent;
+  padding: 0.7em 1.2em;
+  font-size: 0.9em;
+  font-family: inherit;
+  font-weight: 500;
+  background-color: #1D2F50;
+  font: #fff !important;
+  z-index:999 ;
+}
+
 
 @media only screen and (max-width: 768px) {
   .container {
@@ -98,8 +108,6 @@ button {
 /*---------------------------Header---------------------------*/
 
 .header-area{
-  padding:11px 0;
-  transition: padding .3s;
 }
 
 .header-area.sticky {
@@ -108,7 +116,6 @@ button {
   left: 0;
   width: 100%;
   z-index: 99;
-  padding: 5px;
   box-shadow: 5px 7px 25px rgba(229, 168, 168, 0.5)
 }
 
