@@ -37,19 +37,6 @@
     width: 20.875rem;
 }
 
-h2 {
-    color: #223F68;
-    font-family: Poppins;
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    padding-left: 6px;
-    text-align: center;
-}
 
 .box {
     justify-content: space-around;
@@ -60,7 +47,6 @@ h2 {
 }
 
 body {
-    background-image: url(/Images/Workshop.png);
     align-items: center;
     background-size: cover;
 }

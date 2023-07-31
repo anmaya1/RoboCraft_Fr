@@ -3,6 +3,7 @@ import Home from './Home'
 import Footer from './footer'
 import Aboutus from './aboutus'
 import Workshop from './Workshop'
+import Faq from './faq'
 import './workshop.css'
 import '../App.css'
 export default function Root() {
@@ -10,7 +11,8 @@ export default function Root() {
       <div>
           < Home />
           < Aboutus />
-          < Workshop />
+          < Workshop /> 
+          < Faq />
           < Footer />
 
      </div>

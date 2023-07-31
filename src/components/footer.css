@@ -4,6 +4,8 @@
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    
+
 }
 
 .robo_addr {
@@ -78,8 +80,11 @@
 .wrapper {
     display: flex;
     flex-direction: column;
+   
 }
-
+#fimp{
+background-image: url(./Images/Footerv.png);
+}
 .cpyright {
     justify-content: center;
     display: flex;

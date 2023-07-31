@@ -5,7 +5,7 @@ import linkedin from '/Images/linkedin1.png'
 import twitter from '/Images/twitter1.png'
 export default function Footer() {
   return (
-      <div className='wrapper'>
+      <div className='wrapper' id = "fimp">
       <div class="foot_contain"> 
     <div class="robo_addr">
        <div><h2>ROBOCRAFT</h2></div>

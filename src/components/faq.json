@@ -1,0 +1,14 @@
+[
+    {
+      "question": "What is React?",
+      "answer": "React is a JavaScript library for building user interfaces."
+    },
+    {
+      "question": "How do I install React?",
+      "answer": "You can install React using npm or yarn."
+    },
+    {
+      "question": "Can I use React with other libraries?",
+      "answer": "Yes, React can be used with other libraries like Redux."
+    }
+]
