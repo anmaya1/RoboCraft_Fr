@@ -3,7 +3,7 @@ import "./aboutus.css";
 import Aboutuspic from "/Images/abt_img.png";
 export default function Aboutus() {
   return (
-    <div class="about_us">
+    <div class="about_us" id="Aboutus">
       <h2>ABOUT US</h2>
       <div className="abt_cnt">
         <div class="ab_img">

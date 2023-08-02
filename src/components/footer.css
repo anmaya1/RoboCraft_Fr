@@ -4,8 +4,6 @@
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    
-
 }
 
 .robo_addr {
@@ -61,7 +59,8 @@
     padding: 10px 0px;
 }
 
-.quick a {
+.wrapper p, .quick a {
+    color: white;
     text-decoration: none;
 }
 
@@ -80,8 +79,8 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-   
 }
+
 #fimp{
 background-image: url(./Images/Footerv.png);
 }
@@ -89,11 +88,14 @@ background-image: url(./Images/Footerv.png);
     justify-content: center;
     display: flex;
     align-items: center;
-    color: #7A8CA4;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     background-color: #FFF;
+}
+
+.cpyright p {
+    color: black;
 }
