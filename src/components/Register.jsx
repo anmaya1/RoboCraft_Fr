@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '/Images/sign_up_bot.png'
+import img from '/Images/registerpic.png'
 import './register.css'
 export default function Register() {
   return (

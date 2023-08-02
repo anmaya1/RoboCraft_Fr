@@ -17,13 +17,13 @@ export default function Home() {
             </div>
             <ul className="navbar">
               <li>
-                <a href="#About">About Us</a>
+                <a href="/Aboutus">About Us</a>
               </li>
               <li>
                 <Link to="login">Login</Link>
               </li>
               <li>
-                <a href="#FAQ">FAQ's</a>
+                <a href="/faq">FAQ's</a>
               </li>
             </ul>
           </div>

@@ -1,26 +1,31 @@
 
 .sp_body {
-    display: flex;
+    /* display: flex; */
     margin: 0.2rem auto;
     flex-direction: row;
+    background-image: url(./Images/loginpage.png);
+    background-size: cover;
+    height: 98vh;
 }
 
 .inputs {
     display: block;
-    width: 550px;
+    width: 34.375rem;
     margin: auto;
     margin-left: 120px;
 }
 
 .image_div{
     display: block;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 40%;
+    padding: 4rem;
+    margin-top: 1%;
+    margin-bottom: 10%;
 }
 
 
 input {
-    width: 70%;
+    width: 60%;
     display: block;
     padding: 0.6rem 0.5rem;
     border-radius: 0.5rem;

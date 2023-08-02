@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './contactus.css'
-import img1 from './Image/Group121.png'
-import img2 from './Image/contactus1.png'
+import img1 from '/Images/Group121.png'
+import img2 from '/Images/contactus1.png'
 const Contact = () => {
   const [formData, setFormData] = useState({
     fullName: "",

@@ -5,28 +5,28 @@
     border-radius: 4.2rem;
     border: 7px solid rgba(233, 69, 96, 0.25);
     box-shadow: 7px 6px 10px 0px rgba(0, 0, 0, 0.25);
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+    /* align-items: center;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; */
     margin: 39px 5px;
-    background-color: white;
+    background-color: rgb(251, 251, 251);
 }
 
 .box1 .boxtext {
-    padding-bottom: 18px;
+    padding-bottom: 20rem;
 }
 
 .smallbox img {
-    width: 130px;
-    height: 120px;
+    width: 8.125rem;
+    height: 8rem;
 }
 
 
 .boxtext {
-    padding-top: 5px;
-    padding-bottom: 40px;
+    padding-top: 0.313rem;
+    padding-bottom: 2.5rem;
     color: #223F68;
     text-align: center;
     font-family: Poppins;
@@ -42,11 +42,7 @@
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
 }
 
-body {
-    align-items: center;
-    background-size: cover;
-}
