@@ -9,7 +9,7 @@ import '../components/Workshop.css'
 
 export default function Workshop() {
   return (
-    <div>
+    <div className='work_body'>
       <div>
       <h2>What we offer in our workshop?</h2>
       </div>

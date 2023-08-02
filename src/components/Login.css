@@ -1,21 +1,22 @@
-
-.sp_body {
+.sp_bodyL {
     display: flex;
     margin: 0.2rem auto;
     flex-direction: row;
 }
 
-.inputs {
+.inputsL {
     display: block;
     width: 550px;
     margin: auto;
     margin-left: 120px;
 }
 
-.image_div{
+.image_divL{
     display: block;
-    margin-top: auto;
+    margin-top: 0rem;
     margin-bottom: auto;
+    width: 20rem;
+    margin-left: 0rem;
 }
 
 
@@ -38,12 +39,12 @@ input {
     text-align: center;
      color:#5FFF00;
 }
-.inputs h2{
+.inputsL h2{
     text-align: left;
     color: #1D2F50;
 }
 
-.inputs p {
+.inputsL p {
     font-size: medium;
 }
 

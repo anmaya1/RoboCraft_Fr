@@ -6,8 +6,8 @@ import Home from './components/Home';
 // import Workshop from './components/workshop'
 import Register from './components/Register'
 import Signup from './components/Signup'
-import Login from './components/Login';
-import Root from './components/Root';
+import Login from './components/Login'
+import Root from './components/Root'
 
 function App() {
   const [count, setCount] = useState(0)

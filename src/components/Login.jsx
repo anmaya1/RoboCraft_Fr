@@ -4,8 +4,8 @@ import Loginrobo from '/Images/Loginrobo.png'
 
 function Login() {
   return (
-<div class="sp_body">
-      <div class="inputs">
+<div class="sp_bodyL">
+      <div class="inputsL">
         <h2>Welcome!!</h2>
         <div class="info"> 
         <h2>Resume your journey here.</h2>
@@ -24,7 +24,7 @@ function Login() {
             <p>New to Robocraft Register now! forgot password</p>
         </div>
       </div>
-         <div class="image_div">
+         <div class="image_divL">
         <img src={Loginrobo} alt="" />
         </div>
     </div>
