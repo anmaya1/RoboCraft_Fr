@@ -1,14 +1,14 @@
 import React from 'react'
 import './Login.css'
 import Loginrobo from '/Images/Loginrobo.png'
-
+import { Link } from "react-router-dom";
 function Login() {
   return (
 <div class="sp_bodyL">
       <div class="inputsL">
         <h2>Welcome!!</h2>
-        <div class="info"> 
-        <h2>Resume your journey here.</h2>
+        <div class="info">
+          <h2>Resume your journey here.</h2>
         </div>
         <p>Email</p>
         <input
@@ -21,14 +21,19 @@ function Login() {
         <br />
         <input type="button" value="Login" class="button_sp" />
         <div class="forgot">
-            <p>New to Robocraft Register now! forgot password</p>
+          <p>
+            New to Robocraft  < br /> {"  "}
+            <Link to="/signup">
+              <bold> Register now!</bold>{" "}
+            </Link>{" "}
+          </p>
         </div>
       </div>
          <div class="image_divL">
         <img src={Loginrobo} alt="" />
-        </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Login

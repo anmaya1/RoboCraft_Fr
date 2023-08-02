@@ -9,7 +9,7 @@
 .robo_addr {
     display: flex;
     max-width: 13%;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .robo_addr h2 {

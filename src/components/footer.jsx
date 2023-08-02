@@ -3,6 +3,7 @@ import './Footer.css'
 import facebook from '/Images/facebook1.png'
 import linkedin from '/Images/linkedin1.png'
 import twitter from '/Images/twitter1.png'
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
       <div className='wrapper' id = "fimp">
@@ -23,7 +24,7 @@ export default function Footer() {
         <div className='quick'><a href="">Home</a></div>
         <div className='quick'><a href="">About Us</a></div>
         <div className='quick'><a href="">FAQ's</a></div>
-        <div className='quick'><a href="">Contact Us</a></div>
+        <div className='quick'><Link to='/contact'>Contact Us</Link></div>
     </div>
 
     <div className='location'>

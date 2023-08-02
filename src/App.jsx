@@ -6,44 +6,33 @@ import Home from './components/Home';
 // import Workshop from './components/workshop'
 import Register from './components/Register'
 import Signup from './components/Signup'
-import Login from './components/Login'
-import Root from './components/Root'
+import Login from './components/Login';
+import Root from './components/Root';
+import Contact from './components/contact';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      
-        {/* <Home/> */}
-        {/* <Login/> */}
-        {/* <Workshop/> */}
-
-        {/* < Register /> */}
-        {/* < Signup /> */}
-        <Router>
-        
+      {/* <Home/> */}
+      {/* <Login/> */}
+      {/* <Workshop/> */}
+      {/* < Register /> */}
+      {/* < Signup /> */}
+      <Router>
         <Routes>
-          <Route exact path="/" element={<Root/>} />
-          
-         <Route exact path="/login" element={<Login/>} />
-          <Route exact path="/signup" element={<Signup/>} />
+          <Route exact path="/" element={<Root />} />
+
+          <Route exact path="/login" element={<Login />} />
+          <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/register" element={<Register />} />
-          
+          <Route exact path="/Contact" element={< Contact />} />
         </Routes>
-      </Router>@
-
-
-
-
-
-
-
-
-     
-     
+      </Router>
+      @
     </>
-  )
+  );
 }
 
 export default App
