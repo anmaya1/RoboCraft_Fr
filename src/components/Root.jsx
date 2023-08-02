@@ -14,11 +14,7 @@ export default function Root() {
           < Workshop /> 
           < Faq />
           < Footer />
-
      </div>
-      
-      
-      
       
       
   )
